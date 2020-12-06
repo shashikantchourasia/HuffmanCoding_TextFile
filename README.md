@@ -1,4 +1,5 @@
-### Python Implementaion of Huffman Coding
+### Title: Python Implementaion of Huffman Coding for text file
+
 
 #### Testing / Running the program
 
