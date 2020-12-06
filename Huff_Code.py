@@ -103,7 +103,7 @@ class Huff_Code:
 
 	def press(self):
 		fname, fext = os.path.splitext(self.path)
-		out_pt = fname + ".bin"
+		out_pt = "Compressed_"+fname + ".bin"
 
 		with open(self.path, 'r+') as file, open(out_pt, 'wb') as output:
 			text = file.read()
