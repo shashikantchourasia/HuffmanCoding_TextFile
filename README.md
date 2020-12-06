@@ -13,8 +13,9 @@ This project is implemented in Visual Studio Code which has Python 3.7.9 64-bit 
 1. Save / Clone the above repository
 2. The repository consists of a sample test file named "Test_File.txt" of size 694 KB
 3. Run the python code `Main.py` to compress the given test file. For eg. open terminal and run `python3 Main.py`
-
-4. The above command will perform compression on the Test_File.txt file present here. The compressed file will be present at the same location.
+![Capture](Capture.PNG)
+4. As you can see in the above image, the test file is compressed and the size of the new compressed file is nearly half the size of the original one. The compressed file will be present at the same location with the name "Compressed_Test_File.bin".
+![Result](Result.PNG)
 
 
 To run the code for compression of any other text file, edit the `path` variable in the `Main.py` file. 
